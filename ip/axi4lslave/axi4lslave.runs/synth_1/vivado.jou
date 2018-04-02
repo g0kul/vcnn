@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Mar  9 10:58:33 2018
+# Process ID: 7817
+# Current directory: /home/gokul/playground/ece594bb/fpgacc/vcnn/ip/axi4lslave/axi4lslave.runs/synth_1
+# Command line: vivado -log axi_lite_slave.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_lite_slave.tcl
+# Log file: /home/gokul/playground/ece594bb/fpgacc/vcnn/ip/axi4lslave/axi4lslave.runs/synth_1/axi_lite_slave.vds
+# Journal file: /home/gokul/playground/ece594bb/fpgacc/vcnn/ip/axi4lslave/axi4lslave.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source axi_lite_slave.tcl -notrace

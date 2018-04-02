@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="convl1bd_axils_0_1_synth_1" LaunchDir="/home/gokul/playground/ece594bb/fpgacc/vcnn/ip/convl1/convl1.runs/convl1bd_axils_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="convl1bd_conv1l_top_0_0_synth_1" LaunchDir="/home/gokul/playground/ece594bb/fpgacc/vcnn/ip/convl1/convl1.runs/convl1bd_conv1l_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/gokul/playground/ece594bb/fpgacc/vcnn/ip/convl1/convl1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="convl1bd_axils_0_1_synth_1"/>
+		<Parent Id="convl1bd_conv1l_top_0_0_synth_1"/>
+	</Run>
+</Runs>
+

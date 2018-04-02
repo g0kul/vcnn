@@ -1,0 +1,355 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Mon Mar 26 15:34:57 2018
+| Host         : dots running 64-bit Ubuntu 16.04.4 LTS
+| Command      : report_methodology -file vcnnbd_wrapper_methodology_drc_routed.rpt -rpx vcnnbd_wrapper_methodology_drc_routed.rpx
+| Design       : vcnnbd_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 64
++-----------+----------+-----------------------+------------+
+| Rule      | Severity | Description           | Violations |
++-----------+----------+-----------------------+------------+
+| TIMING-16 | Warning  | Large setup violation | 64         |
++-----------+----------+-----------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -12.475 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -12.568 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -12.583 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -12.610 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -12.656 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -12.709 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -12.732 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -12.755 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -12.756 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -12.765 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -12.772 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -12.779 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -12.800 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -12.804 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -12.829 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -12.830 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -12.831 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -12.858 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -12.878 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -12.894 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -12.898 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -12.898 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -12.911 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -12.918 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -12.919 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -12.926 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -12.935 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -12.939 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -12.942 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -12.973 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -12.991 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -12.995 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -12.998 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -12.998 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -12.999 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -13.024 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -13.030 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -13.044 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -13.045 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -13.050 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -13.055 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -13.058 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -13.069 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -13.073 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -13.074 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -13.076 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -13.083 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -13.084 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -13.106 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -13.129 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -13.135 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -13.137 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -13.145 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -13.189 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -13.212 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -13.305 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -13.344 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -13.357 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#59 Warning
+Large setup violation  
+There is a large setup violation of -13.405 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#60 Warning
+Large setup violation  
+There is a large setup violation of -13.543 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#61 Warning
+Large setup violation  
+There is a large setup violation of -8.012 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/mac_o_last_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#62 Warning
+Large setup violation  
+There is a large setup violation of -8.087 ns between vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[6]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_0/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#63 Warning
+Large setup violation  
+There is a large setup violation of -8.220 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/mac_o_last_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#64 Warning
+Large setup violation  
+There is a large setup violation of -8.265 ns between vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_a_tdata_reg[4]/C (clocked by clk_fpga_0) and vcnnbd_i/conv1l_top_1/inst/macinst0/U0/i_synth/need_combiner.use_3to1_fma.skid_buffer_combiner/gen_no_z_tready.reg1_c_tdata_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+

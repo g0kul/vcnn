@@ -1,0 +1,12 @@
+
+*** Running vivado
+    with args -log vcnnbd_output_bram_mem_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vcnnbd_output_bram_mem_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source vcnnbd_output_bram_mem_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP vcnnbd_output_bram_mem_0, cache-ID = 168e705921988d53.

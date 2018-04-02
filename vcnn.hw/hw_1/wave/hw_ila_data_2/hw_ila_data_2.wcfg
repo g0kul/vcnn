@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="989000fs"></ZoomStartTime>
+      <ZoomEndTime time="1003721fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="350"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="86" />
+   <wave_markers>
+      <marker label="" time="28000" />
+   </wave_markers>
+   <wvobject type="array" fp_name="u_ila_0_addra">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_addra[13:13]</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_addra[13:13]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="u_ila_0_input_bram_rd_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_input_bram_rd_en</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_input_bram_rd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="u_ila_0_m_axis_result_tuser">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_m_axis_result_tuser[1:0]</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_m_axis_result_tuser[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="u_ila_0_output_bram_wr_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_output_bram_wr_addr[14:1]</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_output_bram_wr_addr[14:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="u_ila_0_output_bram_wr_wen">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_output_bram_wr_wen</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_output_bram_wr_wen</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="u_ila_0_rsta">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_rsta</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_rsta</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="u_ila_0_wea">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_wea[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="u_ila_0_wea_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_wea_1[0:0]</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_wea_1[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="u_ila_0_wea_2">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_wea_2[0:0]</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_wea_2[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="u_ila_0_weight_bram_rd_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_weight_bram_rd_en</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_weight_bram_rd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/ap_done">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/ap_ready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/ap_start">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/col_addr_overflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/col_addr_overflow</obj_property>
+      <obj_property name="ObjectShortName">col_addr_overflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/row_addr_overflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/row_addr_overflow</obj_property>
+      <obj_property name="ObjectShortName">row_addr_overflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/col_addr_underflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/col_addr_underflow</obj_property>
+      <obj_property name="ObjectShortName">col_addr_underflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/row_addr_underflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/row_addr_underflow</obj_property>
+      <obj_property name="ObjectShortName">row_addr_underflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0_input_bram_rd_ADDR">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0_input_bram_rd_ADDR[11:0]</obj_property>
+      <obj_property name="ObjectShortName">conv1l_top_0_input_bram_rd_ADDR[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0_weight_bram_rd_ADDR">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0_weight_bram_rd_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">conv1l_top_0_weight_bram_rd_ADDR[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_iaddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_iaddr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_iaddr[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_waddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_waddr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_waddr[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/input_read_req">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/input_read_req</obj_property>
+      <obj_property name="ObjectShortName">input_read_req</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_ip_zeros">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_ip_zeros</obj_property>
+      <obj_property name="ObjectShortName">conv_ip_zeros</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/mac_o_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/mac_o_last[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_o_last[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/m_axis_result_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/m_axis_result_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_result_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_a_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_a_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_a_tdata[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_a_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_a_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_a_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_b_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_b_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_b_tdata[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_b_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_b_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_b_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/sum_col_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/sum_col_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_col_addr[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/sum_row_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/sum_row_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_row_addr[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/calc_col_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/calc_col_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">calc_col_addr[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/calc_row_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/calc_row_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">calc_row_addr[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/mult_a">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/mult_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_a[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/mult_b">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/mult_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mult_b[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/multadd_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/multadd_en</obj_property>
+      <obj_property name="ObjectShortName">multadd_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/multadd_op_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/multadd_op_valid</obj_property>
+      <obj_property name="ObjectShortName">multadd_op_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/current_col">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/current_col[5:0]</obj_property>
+      <obj_property name="ObjectShortName">current_col[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/current_row">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/current_row[5:0]</obj_property>
+      <obj_property name="ObjectShortName">current_row[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_ichnls">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_ichnls[2:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_ichnls[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_wcols">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_wcols[2:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_wcols[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_wrows">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_wrows[2:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_wrows[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_icols">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_icols[5:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_icols[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_irows">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_irows[5:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_irows[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_wfltrs">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_wfltrs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_wfltrs[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/input_bram_rd_din">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/input_bram_rd_din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_bram_rd_din[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/input_read_req_r[1]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+      <obj_property name="label">vcnnbd_i/conv1l_top_0/inst/input_read_req[1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_ip_zeros_r[1]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">[1]</obj_property>
+      <obj_property name="label">vcnnbd_i/conv1l_top_0/inst/conv_ip_zeros_r[1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_zero_pad_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_zero_pad_en</obj_property>
+      <obj_property name="ObjectShortName">conv_zero_pad_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_irows[0]_i_1_n_0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_irows[0]_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">conv_irows[0]_i_1_n_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/mac_o">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/mac_o[15:10]</obj_property>
+      <obj_property name="ObjectShortName">mac_o[15:10]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/mac_o_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/mac_o_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_o_1[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/m_axis_result_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/m_axis_result_tdata[15:10]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_result_tdata[15:10]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/m_axis_result_tdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/m_axis_result_tdata_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_result_tdata_1[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_a_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_a_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_a_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_b_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_b_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_b_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_c_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_c_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c_tdata[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_c_tready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_c_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c_tready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_c_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/macinst0/s_axis_c_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_c_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0_output_bram_wr_ADDR">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0_output_bram_wr_ADDR[0:0]</obj_property>
+      <obj_property name="ObjectShortName">conv1l_top_0_output_bram_wr_ADDR[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0_output_bram_wr_DIN">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0_output_bram_wr_DIN[14:0]</obj_property>
+      <obj_property name="ObjectShortName">conv1l_top_0_output_bram_wr_DIN[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/input_read_req_r">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/input_read_req_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">input_read_req_r[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">vcnnbd_i/conv1l_top_0/inst/input_read_req[1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_0/inst/conv_ip_zeros_r">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_0/inst/conv_ip_zeros_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_ip_zeros_r[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">vcnnbd_i/conv1l_top_0/inst/conv_ip_zeros_r[1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/ap_done">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/ap_ready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/ap_start">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/inst/col_addr_overflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/col_addr_overflow</obj_property>
+      <obj_property name="ObjectShortName">col_addr_overflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/inst/col_addr_underflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/col_addr_underflow</obj_property>
+      <obj_property name="ObjectShortName">col_addr_underflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/inst/conv_iaddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/conv_iaddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_iaddr[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/inst/conv_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/conv_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/inst/conv_waddr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/conv_waddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_waddr[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/inst/conv_zero_pad_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/conv_zero_pad_en</obj_property>
+      <obj_property name="ObjectShortName">conv_zero_pad_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/inst/mac_o_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/mac_o_last[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_o_last[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/inst/row_addr_overflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/row_addr_overflow</obj_property>
+      <obj_property name="ObjectShortName">row_addr_overflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/inst/row_addr_underflow">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/row_addr_underflow</obj_property>
+      <obj_property name="ObjectShortName">row_addr_underflow</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/inst/sum_col_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/sum_col_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_col_addr[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/inst/sum_row_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/inst/sum_row_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_row_addr[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/output_bram_wr_addr">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/output_bram_wr_addr[0:0]</obj_property>
+      <obj_property name="ObjectShortName">output_bram_wr_addr[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/conv1l_top_1/output_bram_wr_dout">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/output_bram_wr_dout[14:0]</obj_property>
+      <obj_property name="ObjectShortName">output_bram_wr_dout[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="vcnnbd_i/conv1l_top_1/rstn">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/conv1l_top_1/rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/intermediate_bram_mem/addra">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/intermediate_bram_mem/addra[0:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/intermediate_bram_mem/addrb">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/intermediate_bram_mem/addrb[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/intermediate_bram_mem/dina">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/intermediate_bram_mem/dina[14:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/intermediate_bram_mem/douta">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/intermediate_bram_mem/douta[15:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="vcnnbd_i/intermediate_bram_mem/doutb">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vcnnbd_i/intermediate_bram_mem/doutb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

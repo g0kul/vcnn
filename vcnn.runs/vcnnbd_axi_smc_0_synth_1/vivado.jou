@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Mar 26 12:48:54 2018
+# Process ID: 1301
+# Current directory: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/vcnnbd_axi_smc_0_synth_1
+# Command line: vivado -log vcnnbd_axi_smc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vcnnbd_axi_smc_0.tcl
+# Log file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/vcnnbd_axi_smc_0_synth_1/vcnnbd_axi_smc_0.vds
+# Journal file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/vcnnbd_axi_smc_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source vcnnbd_axi_smc_0.tcl -notrace

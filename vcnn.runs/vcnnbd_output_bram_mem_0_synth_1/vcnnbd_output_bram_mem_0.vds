@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Mar 26 15:22:11 2018
+# Process ID: 18088
+# Current directory: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/vcnnbd_output_bram_mem_0_synth_1
+# Command line: vivado -log vcnnbd_output_bram_mem_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vcnnbd_output_bram_mem_0.tcl
+# Log file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/vcnnbd_output_bram_mem_0_synth_1/vcnnbd_output_bram_mem_0.vds
+# Journal file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/vcnnbd_output_bram_mem_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source vcnnbd_output_bram_mem_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP vcnnbd_output_bram_mem_0, cache-ID = 168e705921988d53.

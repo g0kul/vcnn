@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1520621913">
+  <File Type="VDS-TIMING-PB" Name="axi_lite_slave_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="axi_lite_slave_timing_summary_synth.rpt"/>
+  <File Type="RDS-RDS" Name="axi_lite_slave.vds"/>
+  <File Type="PA-TCL" Name="axi_lite_slave.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="axi_lite_slave_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="axi_lite_slave_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="axi_lite_slave_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="axi_lite_slave.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/verilog/axi_lite_slave.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../studies/pgs/Courses/Winter18/ECE594BB/Prj/Ref/HLS/xapp1168/hdl/verilog/axi_lite_slave.v"/>
+        <Attr Name="ImportTime" Val="1369858047"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="axi_lite_slave"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

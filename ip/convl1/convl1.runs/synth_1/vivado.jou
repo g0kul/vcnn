@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Mar 26 12:02:32 2018
+# Process ID: 4775
+# Current directory: /home/gokul/playground/ece594bb/fpgacc/vcnn/ip/convl1/convl1.runs/synth_1
+# Command line: vivado -log conv1l_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source conv1l_top.tcl
+# Log file: /home/gokul/playground/ece594bb/fpgacc/vcnn/ip/convl1/convl1.runs/synth_1/conv1l_top.vds
+# Journal file: /home/gokul/playground/ece594bb/fpgacc/vcnn/ip/convl1/convl1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source conv1l_top.tcl -notrace

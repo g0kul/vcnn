@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Mar 14 22:10:53 2018
+# Process ID: 12157
+# Current directory: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/impl_1
+# Command line: vivado -log vcnnbd_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vcnnbd_wrapper.tcl -notrace
+# Log file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/impl_1/vcnnbd_wrapper.vdi
+# Journal file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source vcnnbd_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gokul/playground/ece594bb/fpgacc/vcnn/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'vcnnbd_blk_mem_gen_1_0' generated file not found '/home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.srcs/sources_1/bd/vcnnbd/ip/vcnnbd_blk_mem_gen_1_0/stats.txt'. Please regenerate to continue.
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1

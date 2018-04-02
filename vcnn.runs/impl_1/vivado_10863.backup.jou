@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Mar 14 23:13:21 2018
+# Process ID: 10863
+# Current directory: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/impl_1
+# Command line: vivado -log vcnnbd_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vcnnbd_wrapper.tcl -notrace
+# Log file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/impl_1/vcnnbd_wrapper.vdi
+# Journal file: /home/gokul/playground/ece594bb/fpgacc/vcnn/vcnn.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source vcnnbd_wrapper.tcl -notrace
